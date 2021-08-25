@@ -3,7 +3,7 @@
   <groupId>com.ibm.demo.rest</groupId>
   <artifactId>RestClaimAPI</artifactId>
   <version>1.0.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>com.ibm.rest.demo</name>
   <description>Sample REST API for Claims demo</description>
   <properties>
