@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ibm.demo.rest</groupId>
   <artifactId>RestClaimAPI</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <packaging>jar</packaging>
   <name>com.ibm.rest.demo</name>
   <description>Sample REST API for Claims demo</description>
@@ -19,6 +19,11 @@
  	  <version>3.3.1</version>
  	  <configuration>
  	   <failOnMissingWebXml>false</failOnMissingWebXml>
+     <archive>
+        <manifest>
+          <mainClass>com.ibm.rest.demo.HealthClaimsApp</mainClass>
+        </manifest>
+     </archive>
  	  </configuration>
      </plugin>
     </plugins>
